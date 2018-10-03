@@ -16,6 +16,8 @@ public class DemoArray {
 			
 			total = total + salaries[i];
 		}
+		
+		System.out.println("Total: " + total);
 
 	}
 
