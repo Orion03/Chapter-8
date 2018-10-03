@@ -11,7 +11,7 @@ public class TwelveInts {
 		
 		for(int i = 0; i < numArrays.length; i++)
 		{
-			System.out.println("");
+			System.out.println("Number in order: " + numArrays[i]);
 		}
 
 	}
