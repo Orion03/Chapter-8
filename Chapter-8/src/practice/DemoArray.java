@@ -17,6 +17,8 @@ public class DemoArray {
 		System.out.println(salaries[1]);
 		System.out.println(salaries[2]);
 		System.out.println(salaries[3]);
+		
+		for(int i = 0; i < salaries.length; )
 
 	}
 
