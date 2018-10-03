@@ -12,7 +12,11 @@ public class DemoArray {
 		salaries[2] = 10.25;
 		salaries[3] = 16.85;
 		
-		
+		System.out.println("Salaries one by one are: ");
+		System.out.println(salaries[0]);
+		System.out.println(salaries[1]);
+		System.out.println(salaries[2]);
+		System.out.println(salaries[3]);
 
 	}
 
