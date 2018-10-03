@@ -13,6 +13,12 @@ public class TwelveInts {
 		{
 			System.out.println("Number in order: " + numArrays[i]);
 		}
+		
+		System.out.println("Print numbers last to first");
+		for(int j = 11; j > 0; j--)
+		{
+			System.out.println("Numbers in reverse order: " + numArrays[j]);
+		}
 
 	}
 
