@@ -9,13 +9,29 @@ public class ArrayMethodDemo {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int[] heldIntegers = new int[10];
+		int[] arrayIntegers = new int[10];
+		int total = 0;
+		double avg = 0;
 		
-		for(int i = 0; i > heldIntegers.length; i++) {
-			System.out.println("Enter 10 integers >> ");
-			heldIntegers[i] = input.nextInt();
+		for(int i = 0; i < arrayIntegers.length; i++) {
+			System.out.println("Enter an integer >> ");
+			arrayIntegers[i] = input.nextInt();
+			
+			total = total + arrayIntegers[i];
 		}
+		
+		sum(total);
+		higherThanAverage(avg, total, arrayIntegers);
 
+	}
+	
+	public static void sum(int total) {
+		System.out.println("Total: " + total);
+	}
+	
+	public static void higherThanAverage(double avg, int total, int[] arrayIntegers) {
+		avg = total / arrayIntegers.length;
+		System.out.println("Average: " + avg);
 	}
 
 }
