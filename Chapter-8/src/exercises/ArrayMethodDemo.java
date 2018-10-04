@@ -22,13 +22,18 @@ public class ArrayMethodDemo {
 		
 		sum(total);
 		higherThanAverage(avg, total, arrayIntegers);
-		
-		System.out.println();
+		reverseOrder(arrayIntegers);
 
 	}
 	
 	public static void sum(int total) {
 		System.out.println("Total: " + total);
+	}
+	
+	public static void reverseOrder(int[] arrayIntegers) {
+		for(int j = 9; j >= 0; j--) {
+			System.out.println(arrayIntegers[j]);
+		}
 	}
 	
 	public static void higherThanAverage(double avg, int total, int[] arrayIntegers) {
