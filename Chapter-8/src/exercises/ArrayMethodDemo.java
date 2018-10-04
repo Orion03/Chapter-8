@@ -38,10 +38,6 @@ public class ArrayMethodDemo {
 	
 	public static void higherThanAverage(double avg, int total, int[] arrayIntegers) {
 		avg = total / arrayIntegers.length;
-		
-		for(int[] k = arrayIntegers; k > avg) {
-			
-		}
 	}
 
 }
