@@ -22,6 +22,8 @@ public class ArrayMethodDemo {
 		
 		sum(total);
 		higherThanAverage(avg, total, arrayIntegers);
+		
+		System.out.println();
 
 	}
 	
@@ -31,7 +33,6 @@ public class ArrayMethodDemo {
 	
 	public static void higherThanAverage(double avg, int total, int[] arrayIntegers) {
 		avg = total / arrayIntegers.length;
-		System.out.println("Average: " + avg);
 	}
 
 }
