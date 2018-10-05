@@ -14,7 +14,6 @@ public class ArrayMethodDemo {
 		double avg = 0;
 		
 		for(int i = 0; i < arrayIntegers.length; i++) {
-			System.out.println("Enter an integer >> ");
 			
 			total = total + arrayIntegers[i];
 		}
