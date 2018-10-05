@@ -9,13 +9,12 @@ public class ArrayMethodDemo {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int[] arrayIntegers = new int[10];
+		int[] arrayIntegers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		int total = 0;
 		double avg = 0;
 		
 		for(int i = 0; i < arrayIntegers.length; i++) {
 			System.out.println("Enter an integer >> ");
-			arrayIntegers[i] = input.nextInt();
 			
 			total = total + arrayIntegers[i];
 		}
